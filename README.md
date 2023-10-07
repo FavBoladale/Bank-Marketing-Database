@@ -10,11 +10,13 @@ Lastly, you will write the SQL code that the bank can execute to create the tabl
 
 You have been asked to design a database that will have three tables:
 
-<img width="587" alt="client" src="https://github.com/FavBoladale/Bank-Marketing-Database/assets/90184049/1fea05d6-2f5e-4f56-a739-f25965bc9e28">
+<img width="578" alt="image" src="https://github.com/FavBoladale/Bank-Marketing-Database/assets/90184049/38c46910-f9f9-4ef1-897c-9d407cec229f">
 
-<img width="587" alt="campaign" src="https://github.com/FavBoladale/Bank-Marketing-Database/assets/90184049/1e114765-049d-46db-9e55-83e8228c74be">
 
-<img width="589" alt="economics" src="https://github.com/FavBoladale/Bank-Marketing-Database/assets/90184049/109c22fb-49af-4b11-8c25-cd8bac99aff0">
+<img width="581" alt="image" src="https://github.com/FavBoladale/Bank-Marketing-Database/assets/90184049/cc779f33-fcf8-4499-b73e-df5e28d73521">
+
+
+<img width="575" alt="image" src="https://github.com/FavBoladale/Bank-Marketing-Database/assets/90184049/260d6fb6-5266-4b62-a307-8fe01d670f49">
 
 
 
