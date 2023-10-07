@@ -12,4 +12,10 @@ You have been asked to design a database that will have three tables:
 
 <img width="587" alt="client" src="https://github.com/FavBoladale/Bank-Marketing-Database/assets/90184049/1fea05d6-2f5e-4f56-a739-f25965bc9e28">
 
+<img width="587" alt="campaign" src="https://github.com/FavBoladale/Bank-Marketing-Database/assets/90184049/1e114765-049d-46db-9e55-83e8228c74be">
+
+<img width="589" alt="economics" src="https://github.com/FavBoladale/Bank-Marketing-Database/assets/90184049/109c22fb-49af-4b11-8c25-cd8bac99aff0">
+
+
+
 
