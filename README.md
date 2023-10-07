@@ -20,4 +20,25 @@ You have been asked to design a database that will have three tables:
 
 
 
+# Project Instructions
+Read in bank_marketing.csv as a pandas DataFrame.
+Split the data into three DataFrames using information provided about the desired tables as your guide: one with information about the client, another containing campaign data, and a third to store information about economics at the time of the campaign.
+Rename the column "client_id" to "id" in client (leave as-is in the other subsets); "duration" to "contact_duration", "previous" to "previous_campaign_contacts", "y" to "campaign_outcome", "poutcome" to "previous_outcome", and "campaign" to "number_contacts" in campaign; and "euribor3m" to "euribor_three_months" and "nr_employed" to "number_employed" in economics.
+Clean the "education" column, changing "." to "_" and "unknown" to NumPy's null values.
+Remove periods from the "job" column.
+Convert "success" and "failure" in the "previous_outcome" and "campaign_outcome" columns to binary (1 or 0), along with the changing "nonexistent" to NumPy's null values in "previous_outcome".
+Add a column called campaign_id in campaign, where all rows have a value of 1.
+Create a datetime column called last_contact_date, in the format of "year-month-day", where the year is 2022, and the month and day values are taken from the "month" and "day" columns.
+Remove any redundant data that might have been used to create new columns, ensuring the columns in each subset of the data match the table displayed in the notebook.
+Save the three DataFrames to csv files without an index as client.csv, campaign.csv, and economics.csv respectively.
+Create a Python variable called client_table, containing SQL code as a multi-line string to create a table called client using values from client.csv.
+Create a Python variable called campaign_table, containing SQL code as a multi-line string to create a table called campaign using values from campaign.csv.
+Create a Python variable called economics_table, containing SQL code as a multi-line string to create a table called economics using values from economics.csv.
+In client, campaign, and economic, ensure the final line copies the data from their respective csv files using the following template code snippet: \copy table_name from 'file_name.csv' DELIMITER ',' CSV HEADER.
+
+
+For more context, you can check my blog where I shared my thoughts about the project [Link Text](https://medium.com/@akinpeluboladale77)
+
+
+
 
