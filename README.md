@@ -6,7 +6,10 @@ You have been asked to work with a bank to clean and store the data they collect
 
 They have supplied you with a csv file called "bank_marketing.csv", which you will need to clean, reformat, and split, in order to save separate files based on the tables you will create. It is recommended to use pandas for these tasks.
 
-Lastly, you will write the SQL code that the bank can execute to create the tables and populate with the data from the csv files. As the bank are quite strict about their security, you'll save SQL files as multiline string variables that they can then use to create the database on their end.
+Lastly, you will write the SQL code that the bank can execute to create the tables and populate with the data from the csv files. As the banks are quite strict about their security, you'll save SQL files as multiline string variables that they can then use to create the database on their end.
 
 You have been asked to design a database that will have three tables:
+
+<img width="587" alt="client" src="https://github.com/FavBoladale/Bank-Marketing-Database/assets/90184049/1fea05d6-2f5e-4f56-a739-f25965bc9e28">
+
 
